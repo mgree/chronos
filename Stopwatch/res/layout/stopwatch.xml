@@ -4,6 +4,7 @@
   android:orientation="vertical"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/stopwatch"></TextView>
+    <Button android:layout_height="wrap_content" android:id="@+id/new_stopwatch" android:text="@string/create_new" android:layout_width="match_parent"></Button>
+    <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/status"></TextView>
     
 </LinearLayout>
