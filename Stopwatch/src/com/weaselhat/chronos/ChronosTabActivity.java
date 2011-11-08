@@ -28,11 +28,13 @@ public class ChronosTabActivity extends TabActivity {
 				.setContent(intent);
 		tabHost.addTab(spec);
 
+	    /*
 		intent = new Intent().setClass(this, AlarmActivity.class);
 		spec = tabHost.newTabSpec("alarm")
 				.setIndicator("Alarm")
 				.setContent(intent);
 		tabHost.addTab(spec);
+	 	*/
 
 		tabHost.setCurrentTab(2);
 	}
